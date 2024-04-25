@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1353</width>
+    <width>1404</width>
     <height>795</height>
    </rect>
   </property>
@@ -22,6 +22,13 @@
      <layout class="QGridLayout" name="gridLayout_11">
       <item row="0" column="0">
        <widget class="QGroupBox" name="groupBox">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Image 1</string>
         </property>
@@ -30,6 +37,13 @@
           <layout class="QGridLayout" name="gridLayout">
            <item row="0" column="0">
             <widget class="QLabel" name="label_11">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>             FT Component</string>
              </property>
@@ -43,6 +57,12 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="1" column="1">
@@ -53,12 +73,56 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QGraphicsView{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="1">
             <widget class="QComboBox" name="FT_img1">
              <property name="styleSheet">
-              <string notr="true">background-color: #f0f2f6;</string>
+              <string notr="true">QComboBox {
+    border: 1px solid #565656; /* Border color for the combobox */
+    border-radius: 10px;
+    padding: 2px 18px 2px 8px; /* Adjust padding as needed */
+    background-color: rgb(3, 3, 3); /* Background color of the combobox */
+    color: #FFFFFF; /* Text color */
+    selection-background-color: #2A2A2A; /* Background color when an item is selected */
+	font-family: &quot;Overpass&quot;, sans-serif; /* Set the desired font-family */
+	font-weight:bold;
+	font-size:16px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(127, 127, 127); /* Border color on hover */
+}
+
+QComboBox::indicator {
+    width: 0;
+    border: none;
+    margin-right: 6px; /* Adjust as needed */
+}
+
+QComboBox::item {
+    padding: 8px;
+    background-color: #363636; /* Background color of each item */
+}
+
+QComboBox::item:selected {
+    background-color: rgb(42, 42, 42); /* Background color of the selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #2A2A2A; /* Background color on item hover */
+}
+
+
+
+            
+</string>
              </property>
              <item>
               <property name="text">
@@ -94,6 +158,13 @@
       </item>
       <item row="1" column="1">
        <widget class="QGroupBox" name="groupBox_2">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Image 4</string>
         </property>
@@ -108,10 +179,23 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QGraphicsView{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="0">
             <widget class="QLabel" name="label_14">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>             FT Component</string>
              </property>
@@ -125,12 +209,56 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="1">
             <widget class="QComboBox" name="FT_img4">
              <property name="styleSheet">
-              <string notr="true">background-color: #f0f2f6;</string>
+              <string notr="true">QComboBox {
+    border: 1px solid #565656; /* Border color for the combobox */
+    border-radius: 10px;
+    padding: 2px 18px 2px 8px; /* Adjust padding as needed */
+    background-color: rgb(3, 3, 3); /* Background color of the combobox */
+    color: #FFFFFF; /* Text color */
+    selection-background-color: #2A2A2A; /* Background color when an item is selected */
+	font-family: &quot;Overpass&quot;, sans-serif; /* Set the desired font-family */
+	font-weight:bold;
+	font-size:16px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(127, 127, 127); /* Border color on hover */
+}
+
+QComboBox::indicator {
+    width: 0;
+    border: none;
+    margin-right: 6px; /* Adjust as needed */
+}
+
+QComboBox::item {
+    padding: 8px;
+    background-color: #363636; /* Background color of each item */
+}
+
+QComboBox::item:selected {
+    background-color: rgb(42, 42, 42); /* Background color of the selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #2A2A2A; /* Background color on item hover */
+}
+
+
+
+            
+</string>
              </property>
              <item>
               <property name="text">
@@ -166,6 +294,13 @@
       </item>
       <item row="0" column="1">
        <widget class="QGroupBox" name="groupBox_5">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Image 2</string>
         </property>
@@ -180,6 +315,12 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="1" column="0">
@@ -190,10 +331,23 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="0">
             <widget class="QLabel" name="label_13">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>             FT Component</string>
              </property>
@@ -202,7 +356,45 @@
            <item row="0" column="1">
             <widget class="QComboBox" name="FT_img2">
              <property name="styleSheet">
-              <string notr="true">background-color: #f0f2f6;</string>
+              <string notr="true">QComboBox {
+    border: 1px solid #565656; /* Border color for the combobox */
+    border-radius: 10px;
+    padding: 2px 18px 2px 8px; /* Adjust padding as needed */
+    background-color: rgb(3, 3, 3); /* Background color of the combobox */
+    color: #FFFFFF; /* Text color */
+    selection-background-color: #2A2A2A; /* Background color when an item is selected */
+	font-family: &quot;Overpass&quot;, sans-serif; /* Set the desired font-family */
+	font-weight:bold;
+	font-size:16px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(127, 127, 127); /* Border color on hover */
+}
+
+QComboBox::indicator {
+    width: 0;
+    border: none;
+    margin-right: 6px; /* Adjust as needed */
+}
+
+QComboBox::item {
+    padding: 8px;
+    background-color: #363636; /* Background color of each item */
+}
+
+QComboBox::item:selected {
+    background-color: rgb(42, 42, 42); /* Background color of the selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #2A2A2A; /* Background color on item hover */
+}
+
+
+
+            
+</string>
              </property>
              <item>
               <property name="text">
@@ -238,6 +430,13 @@
       </item>
       <item row="1" column="0">
        <widget class="QGroupBox" name="groupBox_3">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Image 3</string>
         </property>
@@ -252,10 +451,23 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="0">
             <widget class="QLabel" name="label_12">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>             FT Component</string>
              </property>
@@ -269,12 +481,56 @@
                <height>200</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QGraphicsView{
+background-color:white;
+border-radius:30px;
+}</string>
+             </property>
             </widget>
            </item>
            <item row="0" column="1">
             <widget class="QComboBox" name="FT_img3">
              <property name="styleSheet">
-              <string notr="true">background-color: #f0f2f6;</string>
+              <string notr="true">QComboBox {
+    border: 1px solid #565656; /* Border color for the combobox */
+    border-radius: 10px;
+    padding: 2px 18px 2px 8px; /* Adjust padding as needed */
+    background-color: rgb(3, 3, 3); /* Background color of the combobox */
+    color: #FFFFFF; /* Text color */
+    selection-background-color: #2A2A2A; /* Background color when an item is selected */
+	font-family: &quot;Overpass&quot;, sans-serif; /* Set the desired font-family */
+	font-weight:bold;
+	font-size:16px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(127, 127, 127); /* Border color on hover */
+}
+
+QComboBox::indicator {
+    width: 0;
+    border: none;
+    margin-right: 6px; /* Adjust as needed */
+}
+
+QComboBox::item {
+    padding: 8px;
+    background-color: #363636; /* Background color of each item */
+}
+
+QComboBox::item:selected {
+    background-color: rgb(42, 42, 42); /* Background color of the selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #2A2A2A; /* Background color on item hover */
+}
+
+
+
+            
+</string>
              </property>
              <item>
               <property name="text">
@@ -324,146 +580,176 @@
         <height>1000</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: #f0f2f6;</string>
+       <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
       </property>
       <property name="title">
-       <string>Controls</string>
+       <string/>
       </property>
       <layout class="QGridLayout" name="gridLayout_16">
-       <item row="0" column="0" colspan="2">
-        <layout class="QGridLayout" name="gridLayout_15">
-         <item row="3" column="0">
-          <spacer name="verticalSpacer_5">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>40</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item row="1" column="0">
-          <widget class="QPushButton" name="reset_region_button">
-           <property name="text">
-            <string>Reset Regions</string>
-           </property>
-          </widget>
-         </item>
+       <item row="7" column="0" colspan="2">
+        <layout class="QFormLayout" name="formLayout_8">
          <item row="0" column="0">
-          <widget class="QPushButton" name="rectangle_region_button">
+          <widget class="QLabel" name="Image4">
            <property name="minimumSize">
             <size>
-             <width>50</width>
+             <width>100</width>
              <height>0</height>
             </size>
            </property>
-           <property name="maximumSize">
-            <size>
-             <width>6000</width>
-             <height>16777215</height>
-            </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">background-color: #fafafa;</string>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
            </property>
            <property name="text">
-            <string>Select Regions</string>
+            <string>Image 4</string>
            </property>
           </widget>
          </item>
          <item row="0" column="1">
-          <layout class="QFormLayout" name="formLayout_4">
+          <layout class="QFormLayout" name="formLayout_3">
            <item row="0" column="0">
-            <widget class="QLabel" name="label_15">
+            <widget class="QSlider" name="ft_img_slider4">
              <property name="minimumSize">
               <size>
-               <width>0</width>
+               <width>300</width>
                <height>0</height>
               </size>
              </property>
-             <property name="maximumSize">
-              <size>
-               <width>6000</width>
-               <height>16777215</height>
-              </size>
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #3A3939;
+    height: 11px;
+    background: #201F1F;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0.0 silver, stop: 0.2 #a8a8a8, stop: 1 #727272);
+    border: 1px solid #3A3939;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 2px;
+}
+</string>
              </property>
-             <property name="text">
-              <string>Mixer Output to</string>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
              </property>
             </widget>
            </item>
            <item row="0" column="1">
-            <widget class="QComboBox" name="choose_output">
-             <property name="minimumSize">
-              <size>
-               <width>0</width>
-               <height>0</height>
-              </size>
+            <widget class="QLabel" name="Image_weight4">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
              </property>
-             <property name="maximumSize">
-              <size>
-               <width>6000</width>
-               <height>16777215</height>
-              </size>
+             <property name="text">
+              <string>0</string>
              </property>
-             <property name="styleSheet">
-              <string notr="true">background-color: #fafafa;</string>
-             </property>
-             <item>
-              <property name="text">
-               <string>Output 1</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>Output 2</string>
-              </property>
-             </item>
             </widget>
            </item>
           </layout>
          </item>
-         <item row="3" column="1">
-          <spacer name="verticalSpacer_6">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
+        </layout>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <layout class="QFormLayout" name="formLayout_7">
+         <item row="0" column="0">
+          <widget class="QLabel" name="Image3">
+           <property name="minimumSize">
             <size>
-             <width>20</width>
-             <height>40</height>
+             <width>100</width>
+             <height>0</height>
             </size>
            </property>
-          </spacer>
-         </item>
-         <item row="2" column="0">
-          <widget class="QPushButton" name="toggle_shading_button">
            <property name="font">
             <font>
+             <pointsize>9</pointsize>
              <weight>75</weight>
              <bold>true</bold>
-             <underline>false</underline>
             </font>
            </property>
-           <property name="autoFillBackground">
-            <bool>false</bool>
-           </property>
            <property name="text">
-            <string>Toggle Shading</string>
-           </property>
-           <property name="flat">
-            <bool>false</bool>
+            <string>Image 3</string>
            </property>
           </widget>
          </item>
+         <item row="0" column="1">
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QSlider" name="ft_img_slider3">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #3A3939;
+    height: 11px;
+    background: #201F1F;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0.0 silver, stop: 0.2 #a8a8a8, stop: 1 #727272);
+    border: 1px solid #3A3939;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 2px;
+}
+
+</string>
+             </property>
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLabel" name="Image_weight3">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
         </layout>
        </item>
-       <item row="2" column="1">
-        <spacer name="verticalSpacer">
+       <item row="9" column="1">
+        <spacer name="verticalSpacer_4">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -498,8 +784,15 @@
              <height>0</height>
             </size>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="text">
-            <string>Image_2</string>
+            <string>Image 2</string>
            </property>
           </widget>
          </item>
@@ -513,6 +806,27 @@
                <height>0</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #3A3939;
+    height: 11px;
+    background: #201F1F;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0.0 silver, stop: 0.2 #a8a8a8, stop: 1 #727272);
+    border: 1px solid #3A3939;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 2px;
+}
+
+</string>
+             </property>
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -520,6 +834,13 @@
            </item>
            <item row="0" column="1">
             <widget class="QLabel" name="Image_weight2">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>0</string>
              </property>
@@ -529,8 +850,8 @@
          </item>
         </layout>
        </item>
-       <item row="9" column="1">
-        <spacer name="verticalSpacer_4">
+       <item row="2" column="1">
+        <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -541,88 +862,6 @@
           </size>
          </property>
         </spacer>
-       </item>
-       <item row="7" column="0" colspan="2">
-        <layout class="QFormLayout" name="formLayout_8">
-         <item row="0" column="0">
-          <widget class="QLabel" name="Image4">
-           <property name="minimumSize">
-            <size>
-             <width>100</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Image_4</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <layout class="QFormLayout" name="formLayout_3">
-           <item row="0" column="0">
-            <widget class="QSlider" name="ft_img_slider4">
-             <property name="minimumSize">
-              <size>
-               <width>300</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="Image_weight4">
-             <property name="text">
-              <string>0</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-        </layout>
-       </item>
-       <item row="5" column="0" colspan="2">
-        <layout class="QFormLayout" name="formLayout_7">
-         <item row="0" column="0">
-          <widget class="QLabel" name="Image3">
-           <property name="minimumSize">
-            <size>
-             <width>100</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="text">
-            <string>Image_3</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <layout class="QFormLayout" name="formLayout_2">
-           <item row="0" column="0">
-            <widget class="QSlider" name="ft_img_slider3">
-             <property name="minimumSize">
-              <size>
-               <width>300</width>
-               <height>0</height>
-              </size>
-             </property>
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="0" column="1">
-            <widget class="QLabel" name="Image_weight3">
-             <property name="text">
-              <string>0</string>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-        </layout>
        </item>
        <item row="4" column="1">
         <spacer name="verticalSpacer_2">
@@ -647,8 +886,15 @@
              <height>0</height>
             </size>
            </property>
+           <property name="font">
+            <font>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
            <property name="text">
-            <string>Image_1</string>
+            <string>Image 1</string>
            </property>
           </widget>
          </item>
@@ -662,6 +908,26 @@
                <height>0</height>
               </size>
              </property>
+             <property name="styleSheet">
+              <string notr="true">QSlider::groove:horizontal {
+    border: 1px solid #3A3939;
+    height: 11px;
+    background: #201F1F;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+QSlider::handle:horizontal {
+    background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1,
+      stop: 0.0 silver, stop: 0.2 #a8a8a8, stop: 1 #727272);
+    border: 1px solid #3A3939;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 2px;
+}
+</string>
+             </property>
              <property name="orientation">
               <enum>Qt::Horizontal</enum>
              </property>
@@ -669,12 +935,299 @@
            </item>
            <item row="0" column="1">
             <widget class="QLabel" name="Image_weight1">
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
              <property name="text">
               <string>0</string>
              </property>
             </widget>
            </item>
           </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <layout class="QGridLayout" name="gridLayout_15">
+         <item row="0" column="1">
+          <layout class="QFormLayout" name="formLayout_4">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>6000</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Mixer Output to</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="choose_output">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>6000</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QComboBox {
+    border: 1px solid #565656; /* Border color for the combobox */
+    border-radius: 10px;
+    padding: 2px 18px 2px 8px; /* Adjust padding as needed */
+    background-color: rgb(3, 3, 3); /* Background color of the combobox */
+    color: #FFFFFF; /* Text color */
+    selection-background-color: #2A2A2A; /* Background color when an item is selected */
+	font-family: &quot;Overpass&quot;, sans-serif; /* Set the desired font-family */
+	font-weight:bold;
+	font-size:16px;
+}
+
+QComboBox:hover {
+    border: 1px solid rgb(127, 127, 127); /* Border color on hover */
+}
+
+QComboBox::indicator {
+    width: 0;
+    border: none;
+    margin-right: 6px; /* Adjust as needed */
+}
+
+QComboBox::item {
+    padding: 8px;
+    background-color: #363636; /* Background color of each item */
+}
+
+QComboBox::item:selected {
+    background-color: rgb(42, 42, 42); /* Background color of the selected item */
+}
+
+QComboBox::item:hover {
+    background-color: #2A2A2A; /* Background color on item hover */
+}
+
+
+
+            
+</string>
+             </property>
+             <item>
+              <property name="text">
+               <string>Output 1</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Output 2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="4" column="1">
+          <spacer name="verticalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="toggle_shading_button">
+           <property name="font">
+            <font>
+             <family>-apple-system,system-ui,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif</family>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color: #54b4d3;
+border-radius: 15px;
+color: #fff;
+cursor: pointer;
+font-family: -apple-system,system-ui,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Ubuntu,sans-serif;
+font-size: 100%;
+height: 30px;
+line-height: 1.15;
+outline: none;
+padding: 3 10px;
+text-align: center;
+width: 30px; /* Reduced width to 200 pixels */
+}
+QPushButton:hover{
+background-color:rgb(58, 140, 164);
+}
+QPushButton:pressed{
+background-color:rgb(41, 108, 130);
+}
+QPushButton:focus {
+                    border-color: #3a8ca4;
+                    color: #3a8ca4;
+                    outline: none;
+}
+QPushButton.dark:hover {
+                    background-color: #17222d; /* Adjust dark mode hover background color */
+}
+
+                QPushButton.dark:pressed {
+                    background-color: #0f1417; /* Adjust dark mode pressed background color */
+}</string>
+           </property>
+           <property name="text">
+            <string>Toggle Shading</string>
+           </property>
+           <property name="flat">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="rectangle_region_button">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>6000</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>-apple-system,system-ui,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif</family>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color: #54b4d3;
+border-radius: 15px;
+color: #fff;
+cursor: pointer;
+font-family: -apple-system,system-ui,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Ubuntu,sans-serif;
+font-size: 100%;
+height: 30px;
+line-height: 1.15;
+outline: none;
+padding: 3 10px;
+text-align: center;
+width: 30px; /* Reduced width to 200 pixels */
+}
+QPushButton:hover{
+background-color:rgb(58, 140, 164);
+}
+QPushButton:pressed{
+background-color:rgb(41, 108, 130);
+}
+QPushButton:focus {
+                    border-color: #3a8ca4;
+                    color: #3a8ca4;
+                    outline: none;
+}
+QPushButton.dark:hover {
+                    background-color: #17222d; /* Adjust dark mode hover background color */
+}
+
+                QPushButton.dark:pressed {
+                    background-color: #0f1417; /* Adjust dark mode pressed background color */
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Select Regions</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="reset_region_button">
+           <property name="font">
+            <font>
+             <family>-apple-system,system-ui,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif</family>
+             <pointsize>9</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+background-color: #FF4742;
+border-radius: 15px;
+color: #fff;
+cursor: pointer;
+font-family: -apple-system,system-ui,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Ubuntu,sans-serif;
+font-size: 100%;
+height: 30px;
+line-height: 1.15;
+outline: none;
+padding: 3 10px;
+text-align: center;
+width: 30px; /* Reduced width to 200 pixels */
+}
+QPushButton:hover{
+background-color:rgb(225, 61, 58);
+}
+QPushButton:pressed{
+background-color: rgb(180, 49, 47);
+}</string>
+           </property>
+           <property name="text">
+            <string>Reset Regions</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <spacer name="verticalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
          </item>
         </layout>
        </item>
@@ -685,24 +1238,52 @@
      <layout class="QGridLayout" name="gridLayout_13">
       <item row="0" column="0">
        <widget class="QGroupBox" name="groupBox_6">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Output 1</string>
         </property>
         <layout class="QGridLayout" name="gridLayout_9">
          <item row="0" column="0">
-          <widget class="QGraphicsView" name="graphicsView_10"/>
+          <widget class="QGraphicsView" name="graphicsView_10">
+           <property name="styleSheet">
+            <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
       </item>
       <item row="0" column="1">
        <widget class="QGroupBox" name="groupBox_7">
+        <property name="font">
+         <font>
+          <pointsize>9</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
         <property name="title">
          <string>Output 2</string>
         </property>
         <layout class="QGridLayout" name="gridLayout_10">
          <item row="0" column="0">
-          <widget class="QGraphicsView" name="graphicsView_9"/>
+          <widget class="QGraphicsView" name="graphicsView_9">
+           <property name="styleSheet">
+            <string notr="true">QWidget{
+background-color:white;
+border-radius:30px;
+}</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -716,8 +1297,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1353</width>
-     <height>21</height>
+     <width>1404</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
